@@ -3,4 +3,3 @@ opencv-python
 selenium
 face_recognition
 WeasyPrint
-requests-html
