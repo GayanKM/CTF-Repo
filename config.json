@@ -1,0 +1,25 @@
+{
+	"private_key_id": "cf26e43c901926ba544868b19c620b1d2a3b9277",
+	"private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC5Rr5jk52qVFNf\nWUWTXckrhKNdbCeb2kfA6Ktkbu042Lux6mi6mwNOeXms4rSbka6ae/iQBB3BWBG2\nCN0uczb/a+RHgTmOkNB2kVLIJbwLvAT/z+E/rdaMnXzJ/l8CKnAunvhtzzHLO49w\n9eYgfDOUTteFkhroa0PGGPyn3iopqyLndmN8hwVeHSOGDNU4S9t3wyl0zYfD/xjU\nOH8BVIzGk3R4qleqd14fTRnW3xN+xwNfxd2r3uOJvVd/qUInHMOpBMsiikylmJg6\n5VmdFntoap6L4yCESE2rCMeXfefAeXKvpMXLtDebJNwtC+udAlFsWAp9/nYuXrbe\nDNPe/q4lAgMBAAECggEAQ5flHsP8iecg0ZDqmrRlD6zgwtUR8ECm2+Cmosn7Xrln\nZKXN1oJ2JtuXgfTlijoQdsjSqovt5RtBvuUl+GvNPUs56cJh4rq/avpitqVZoPhT\n5JYNKeO8eel83N6h/9LGwaN6o+kq0+fjUYVMkz5svOc0psTibzeu7qcwCfg57qAi\nybqXpeqWQ8y7L0iHfTLYBv7C2HKp5neWEX7my24a9Q4B6iCWx42N0+8y6YtjuzOG\nBCjhFiJzGVIJOPZUBMtrpU8vEJCjsFS5aUS+hPDgjt5+MZ/d0FuTFJP9np2sJZi+\nuBOYMJsVIp+WqYqLluGTpMmvAm+Ih2sq392lWzCRYwKBgQDvXQvyd0PZbnai/vDu\nE3e7J6209g/hlmu3dErDQmac5CYkKcnhCf2RaJuBQMI2Wz9cC//jZ+AUhZLPgIa3\nHqlve/ZkI76WJlWeMYJCYrfOLipDpJWlIDklUC7y5YptDLwx/w9czsEXnwYDzwfu\nj2E8sOd7imqnz2XkL0yEXvrj3wKBgQDGJ1WILgbk9znFsJM4ISWt6Om8DEmtbOA5\nc+BNu5cEvBdANsfT1eJgaXwnSuXdOTV8RxIQhoByb1j3m1mhixJbFF988+jsoHss\n5Ss5QiOOyOf2YnL1EZFo0gJAzu6SmkovpAa5qHv60YlDx2W8rY2cJqPy8tfuGLG2\n4aWcM6MOewKBgH0tOs89QdVWqGJLUvIeajIM6RHG0L1XrdNN1L9SXVlVEwE8fV/b\nmqjNfO1WUXqds3/Ooq5pJ010ITe07j6boV41BMCP1N6vA31sRMO03ozLpbykOMIX\nHOt/iF3sXrzyuQSob39IfMB+oGWjgnFmuCJGHXiFBYvmsVFozuo2xZwfAoGBAMBx\nMwAus0NrVxBHjLLWfmGH8nhO9r8XHiyt/QmBRgmzImGa0jdJYbGAwLLoapWPGgK4\ngzLJbbW1rhHLLiFVj14lSxdvSqeEtBvF9VSGh0IEnEMNGdgoV7AVRVrrnYeDkMjz\n5BQrLT1KgqTw4j170Cv22wL4Ff2GvhF+0/f/rjxBAoGAPcYUmjZIoIlPD5WYx2nL\npGBmZRJFFShcx0Hs+K09A7Jy+2dBe3rb1jUjB4f3P+4dqLnFXX4xV/vxiUArU0KD\n4UdCCowjYPiNG4DedAN4IfX2P5gpJMQwgjuhtePcKb/bEqHaApoLpGn5j2Oj1hIF\nc6tyB9AxYrT79xo9N3NGnBI=\n-----END PRIVATE KEY-----\n",
+
+	"CTF":"FLAG:s3cr3ts1nGit",
+	"comments" : "If you commit any sensitive data in Git, ensure that you remove the sensitive data from Git history. Also if the sensitive data is some sort of token or password, its highly recommended to rotate/change the same.https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository",
+	
+    "DEFAULTS": {
+        "SLEEP_DELAY": "7",
+        "GOOGLE_IMG_PAGES": "3"
+    },
+    "WEBDRIVER": {
+        "ENGINE": "firefox",
+        "PATH": "/usr/bin/geckodriver"
+    },
+    "FILTER": [
+        "instagram.com",
+        "twitter.com",
+        "pinterest.com",
+        "plus.google.com",
+        "url?"
+    ],
+    "INSTA_VALIDATION_MAX_IMAGES": "5",
+    "JITTERS": "70"
+}
